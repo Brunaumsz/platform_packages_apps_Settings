@@ -288,7 +288,7 @@
     <string name="airplane_mode" msgid="8837269988154128601">"Modo avião"</string>
     <string name="radio_controls_title" msgid="3447085191369779032">"Mais"</string>
     <string name="wireless_networks_settings_title" msgid="3643009077742794212">"Redes sem fio e outras"</string>
-    <string name="radio_controls_summary" msgid="2837395036275123133">"Gerenciar Wi-Fi, Bluetooth, modo avião, redes celulares e VPNs"</string>
+    <string name="radio_controls_summary" msgid="2837395036275123133">"Gerenciar Wi-Fi, Bluetooth, modo avião, redes móveis e VPNs"</string>
     <string name="cellular_data_title" msgid="2525947635539415202">"Dados da rede celular"</string>
     <string name="calls_title" msgid="3544471959217176768">"Chamadas"</string>
     <string name="sms_messages_title" msgid="3188611825992624879">"Mensagens SMS"</string>
@@ -861,7 +861,7 @@
     <string name="sim_enter_ok" msgid="6475946836899218919">"OK"</string>
     <string name="sim_enter_cancel" msgid="6240422158517208036">"Cancelar"</string>
     <string name="sim_multi_sims_title" msgid="9159427879911231239">"Vários SIMs encontrados"</string>
-    <string name="sim_multi_sims_summary" msgid="7018740080801483990">"Escolha o SIM preferencial para dados de redes celulares."</string>
+    <string name="sim_multi_sims_summary" msgid="7018740080801483990">"Escolha o SIM preferencial para dados de redes móveis."</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"Código PIN do SIM incorreto. Entre em contato com a operadora para desbloquear o dispositivo."</string>
   <plurals name="wrong_pin_code">
     <item quantity="one" msgid="4840607930166101114">"Código PIN do SIM incorreto. Tentativas restantes: <xliff:g id="NUMBER">%d</xliff:g>. Caso o código correto não seja digitado, será necessário entrar em contato com a operadora para desbloquear o dispositivo."</item>
@@ -1073,7 +1073,7 @@
     <string name="bluetooth_tethering_overflow_error" msgid="6285122039489881969">"Não é possível vincular a mais de <xliff:g id="MAXCONNECTION">%1$d</xliff:g> dispositivos."</string>
     <string name="bluetooth_untether_blank" msgid="2871192409329334813">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> será vinculado."</string>
     <string name="tethering_help_button_text" msgid="656117495547173630">"Ajuda"</string>
-    <string name="network_settings_title" msgid="4871233236744292831">"Redes celulares"</string>
+    <string name="network_settings_title" msgid="4871233236744292831">"Dados móveis"</string>
     <string name="manage_mobile_plan_title" msgid="7630170375010107744">"Plano de celular"</string>
     <string name="sms_application_title" msgid="6134351177937015839">"App de SMS padrão"</string>
     <string name="sms_change_default_dialog_title" msgid="1958688831875804286">"Alterar app de SMS?"</string>
@@ -1098,8 +1098,8 @@
     <string name="location_high_battery_use" msgid="517199943258508020">"Uso da bateria elevado"</string>
     <string name="location_low_battery_use" msgid="8602232529541903596">"Uso da bateria reduzido"</string>
     <string name="location_mode_screen_title" msgid="4528716772270246542">"Modo de localização"</string>
-    <string name="location_mode_high_accuracy_description" msgid="5349014493087338351">"Usar GPS, Wi‑Fi e redes celulares para determinar a localização"</string>
-    <string name="location_mode_battery_saving_description" msgid="7581657383062066461">"Usar Wi-Fi e redes celulares para determinar a localização"</string>
+    <string name="location_mode_high_accuracy_description" msgid="5349014493087338351">"Usar GPS, Wi‑Fi e redes móveis para determinar a localização"</string>
+    <string name="location_mode_battery_saving_description" msgid="7581657383062066461">"Usar Wi-Fi e redes móveis para determinar a localização"</string>
     <string name="location_mode_sensors_only_description" msgid="7178415350457794366">"Usar GPS para determinar a localização"</string>
     <string name="location_network_based" msgid="6010456018401296590">"Localiz. por Wi-Fi e rede cel."</string>
     <string name="location_neighborhood_level" msgid="5626515380188353712">"Permitir que apps usem o serviço de localização do Google para determinar seu local mais rapidamente. Dados de localização anônimos serão coletados e enviados ao Google."</string>
@@ -2036,7 +2036,7 @@
     <string name="data_usage_menu_metered" msgid="6235119991372755026">"Restrições de rede"</string>
     <string name="data_usage_menu_auto_sync" msgid="8203999775948778560">"Sincronizar dados automaticamente"</string>
     <string name="data_usage_menu_sim_cards" msgid="6410498422797244073">"Cartões SIM"</string>
-    <string name="data_usage_menu_cellular_networks" msgid="5243515735055652279">"Redes celulares"</string>
+    <string name="data_usage_menu_cellular_networks" msgid="5243515735055652279">"Dados móveis"</string>
     <string name="account_settings_menu_auto_sync" msgid="6243013719753700377">"Sincron. dados automaticamente"</string>
     <string name="account_settings_menu_auto_sync_personal" msgid="785541379617346438">"Sinc. autom. dados pessoais"</string>
     <string name="account_settings_menu_auto_sync_work" msgid="329565580969147026">"Sinc. autom. dados de trab."</string>
@@ -2065,7 +2065,7 @@
     <string name="data_usage_background_label" msgid="2722008379947694926">"Segundo plano:"</string>
     <string name="data_usage_app_settings" msgid="2279171379771253165">"Configurações do app"</string>
     <string name="data_usage_app_restrict_background" msgid="7510046552380574925">"Restr. dados de 2º plano de apps"</string>
-    <string name="data_usage_app_restrict_background_summary" msgid="3720075732277934106">"Desabilitar dados de segundo plano em redes celulares."</string>
+    <string name="data_usage_app_restrict_background_summary" msgid="3720075732277934106">"Desabilitar dados de segundo plano em redes móveis."</string>
     <string name="data_usage_app_restrict_background_summary_disabled" msgid="1446565717342917727">"P/ restringir dados de 2º plano, defina limite da rede celular."</string>
     <string name="data_usage_app_restrict_dialog_title" msgid="1613108390242737923">"Restringir dados de segundo plano?"</string>
     <string name="data_usage_app_restrict_dialog" msgid="5871168521456832764">"Esse recurso pode fazer com que um app que dependa de dados de segundo plano pare de funcionar quando somente redes de acesso limitado estiverem disponíveis.\n\nVocê pode encontrar controles de uso de dados mais apropriados nas configurações disponíveis no app."</string>
@@ -2084,9 +2084,9 @@
     <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="5788774061143636263">"O tablet desativará os dados da rede celular depois que o limite definido for atingido.\n\nComo o uso de dados é calculado pelo tablet, e sua operadora pode considerar o uso de outra forma, cogite definir um limite moderado."</string>
     <string name="data_usage_limit_dialog_mobile" product="default" msgid="3511301596446820549">"O smartphone desativará os dados da rede celular depois que o limite definido for atingido.\n\nComo o uso de dados é calculado pelo smartphone, e sua operadora pode considerar o uso de outra forma, cogite definir um limite moderado."</string>
     <string name="data_usage_restrict_background_title" msgid="2201315502223035062">"Restringir dados de segundo plano?"</string>
-    <string name="data_usage_restrict_background" msgid="8210134218644196511">"Ao restringir os dados de redes celulares em segundo plano, alguns apps e serviços só funcionarão se você estiver conectado ao Wi-Fi."</string>
-    <string name="data_usage_restrict_background_multiuser" product="tablet" msgid="3262993384666280985">"Ao restringir os dados de redes celulares em segundo plano, alguns apps e serviços só funcionarão se você estiver conectado ao Wi-Fi.\n\nEsta configuração afeta todos os usuários do tablet."</string>
-    <string name="data_usage_restrict_background_multiuser" product="default" msgid="4352615206362479722">"Ao restringir os dados de redes celulares em segundo plano, alguns apps e serviços só funcionarão se você estiver conectado ao Wi-Fi.\n\nEsta configuração afeta todos os usuários do smartphone."</string>
+    <string name="data_usage_restrict_background" msgid="8210134218644196511">"Ao restringir os dados de redes móveis em segundo plano, alguns apps e serviços só funcionarão se você estiver conectado ao Wi-Fi."</string>
+    <string name="data_usage_restrict_background_multiuser" product="tablet" msgid="3262993384666280985">"Ao restringir os dados de redes móveis em segundo plano, alguns apps e serviços só funcionarão se você estiver conectado ao Wi-Fi.\n\nEsta configuração afeta todos os usuários do tablet."</string>
+    <string name="data_usage_restrict_background_multiuser" product="default" msgid="4352615206362479722">"Ao restringir os dados de redes móveis em segundo plano, alguns apps e serviços só funcionarão se você estiver conectado ao Wi-Fi.\n\nEsta configuração afeta todos os usuários do smartphone."</string>
     <string name="data_usage_sweep_warning" msgid="6387081852568846982"><font size="21">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"aviso"</font></string>
     <string name="data_usage_sweep_limit" msgid="860566507375933039"><font size="21">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"limite"</font></string>
     <string name="data_usage_uninstalled_apps" msgid="614263770923231598">"Apps removidos"</string>
@@ -2097,7 +2097,7 @@
     <string name="data_usage_total_during_range_mobile" product="default" msgid="1625833170144610767">"<xliff:g id="RANGE">%2$s</xliff:g>: aprox. <xliff:g id="TOTAL">%1$s</xliff:g> usados (cálculo do tel). Cálculo da operadora poderá ser diferente."</string>
     <string name="data_usage_metered_title" msgid="7383175371006596441">"Restrições de rede"</string>
     <string name="data_usage_metered_body" msgid="3262343834446126044">"Redes limitadas são tratadas como celular quando os dados em segundo plano forem restritos. Apps podem avisar antes de usar essas redes para downloads grandes."</string>
-    <string name="data_usage_metered_mobile" msgid="2326986339431119372">"Redes celulares"</string>
+    <string name="data_usage_metered_mobile" msgid="2326986339431119372">"Dados móveis"</string>
     <string name="data_usage_metered_wifi" msgid="1761738002328299714">"Redes Wi-Fi limitadas"</string>
     <string name="data_usage_metered_wifi_disabled" msgid="727808462375941567">"Para selecionar redes limitadas, ative o Wi-Fi."</string>
     <string name="data_usage_disclaimer" msgid="6887858149980673444">"O cálculo da operadora poderá ser diferente de seu dispositivo."</string>
